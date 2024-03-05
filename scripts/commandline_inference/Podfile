@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'commandline_inference' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for commandline_inference
+
+  pod 'GoogleMLKit/PoseDetectionAccurate', '3.2.0'
+
+end
